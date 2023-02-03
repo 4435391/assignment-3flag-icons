@@ -1,0 +1,304 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+
+}
+a:hover{
+	text-decoration: none;
+}
+
+	
+
+.flag{
+	color: black;
+	background-color: greenyellow;
+	font-size: 100;
+	font-weight: 300;
+	margin:40px 0px;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.green{
+	width:500px ;
+	height:300px;
+	margin:5px 100px 0px;
+	background:darkgreen;
+	position: relative;
+
+
+	
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	transform: translate(145px,50px);
+
+
+	
+
+}
+
+.green1{
+	width:500px ;
+	height:300px;
+	margin: 5px 700px 0px;
+	background:darkgreen;
+	position: relative;
+	bottom: 300px;
+
+	
+
+
+
+
+}
+.red1{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	transform: translate(145px,50px);
+
+
+
+	
+
+}
+.fb-share{
+	width:250px;
+	position:fixed;
+	bottom:70%;
+	right:-150px;
+	transition: 3s;
+
+}
+.fb-share:hover{
+	right: -5px;
+	cursor: pointer;
+
+}
+
+
+.intagram{
+	width:75px;
+	position:fixed;
+	top:30%;
+	right:-30px;
+	transition: 1s;
+}
+.intagram:hover{
+	right: -5px;
+	cursor: pointer;
+
+}
+.whatsapp{
+	width:120px;
+	position:fixed;
+	top:40%;
+	right:-50px;
+	transition: 2s;
+
+
+}
+.whatsapp:hover{
+	right: -5px;
+	cursor: pointer;
+
+
+
+}
+.icons{
+	color: black;
+	background-color: greenyellow;
+	font-size: 100;
+	font-weight: 300;
+	margin:40px 0px;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+
+
+
+
+.social-icons{
+	width:100%;
+	display: block;
+	text-align: center;
+	padding: 80px 0px 0px;
+	font-size: 30px;
+	
+	}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+
+}
+.social-icons li a{
+	display: block;
+	margin: 0px 8px;
+
+}
+.social-icons li a .fa-facebook{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	background: #0A82ED;
+	color: #fff;
+	border-radius: 100%;
+	border: 1px solid #0A82ED;
+	margin: 0px 10px;
+	transition: 0.5s;
+
+
+
+}
+.social-icons li a .fa-facebook:hover{
+	background: transparent;
+	color:  #0A82ED;
+	border:1px solid #0A82ED ;
+
+}
+.social-icons li a .fa-instagram{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+
+	background: #FD00BB;
+	color: #fff;
+	border-radius: 100%;
+	border: 1px solid : #FD00BB; 
+
+	transition: 0.5s;
+
+
+}
+.social-icons li a .fa-instagram:hover{
+	background: transparent;
+	color:  #FD00BB;
+	border:1px solid #FD00BB ;
+}
+.social-icons li a .fa-whatsapp{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+
+	background: #1AD03F;
+	color: #fff;
+	border-radius: 100%;
+	border: 1px solid #1AD03F; 
+
+	transition: 0.5s;
+
+
+}
+.social-icons li a .fa-whatsapp:hover{
+	background: transparent;
+	color:  #1AD03F;
+	border:1px solid #1AD03F;
+}
+.social-icons li a .fa-twitter{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+
+	background: #000000;
+	color: #fff;
+	border-radius: 100%;
+	border: 1px solid #000000; 
+
+	transition: 0.5s;
+}
+.social-icons li a .fa-twitter:hover{
+	background: transparent;
+	color:  #000000;
+	border:1px solid #000000;
+}
+.social-icons li a .fa-youtube{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+
+	background: #F70000;
+	color: #fff;
+	border-radius: 100%;
+	border: 1px solid #F70000; 
+
+	transition: 0.5s;
+}
+.social-icons li a .fa-youtube:hover{
+	background: transparent;
+	color:  #F70000;
+	border:1px solid #F70000;
+}
+.social-icons li a .fa-linkedin{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+
+	background: #006394;
+	color: #fff;
+	border-radius: 100%;
+	border: 1px solid #006394; 
+
+	transition: 0.5s;
+}
+.social-icons li a .fa-linkedin:hover{
+	background: transparent;
+	color:  #006394;
+	border:1px solid #006394;
+}
+
+.social-icons li a .fa-snapchat{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+
+	background: #F7F400;
+	color: #fff;
+	border-radius: 100%;
+	border: 1px solid #F7F400; 
+
+	transition: 0.5s;
+}
+.social-icons li a .fa-snapchat:hover{
+	background: transparent;
+	color:   #F7F400;
+	border:1px solid  #F7F400;
+}
+
+
+
+
+
+
+
+
+
+
+
